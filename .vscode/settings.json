@@ -1,5 +1,8 @@
 {
   "workbench.colorTheme": "VueJS Theme",
   "javascript.format.semicolons": "insert",
-  "javascript.format.enable": true
+  "javascript.format.enable": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
 }
