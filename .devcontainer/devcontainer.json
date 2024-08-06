@@ -9,7 +9,8 @@
                 "dbaeumer.vscode-eslint",
                 "octref.vetur",
                 "Vue.volar",
-                "esbenp.prettier-vscode"
+                "esbenp.prettier-vscode",
+                "eamodio.gitlens"
             ],
             "settings": { 
                 "terminal.integrated.shell.linux": "/bin/bash"
