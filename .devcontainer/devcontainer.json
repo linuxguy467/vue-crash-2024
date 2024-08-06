@@ -1,0 +1,20 @@
+{
+    "name": "Vue Crash 2024",
+    "dockerComposeFile": "compose-dev.yaml",
+    "service": "vue-app",
+    "workspaceFolder": "/app",
+    "customizations": {
+        "vscode": {            
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "octref.vetur",
+                "Vue.volar",
+                "esbenp.prettier-vscode"
+            ],
+            "settings": { 
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        }
+    },
+    "forwardPorts": [3000]
+}
