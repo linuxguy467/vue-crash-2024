@@ -1,3 +1,10 @@
 {
-  "recommendations": ["Vue.volar", "leonardoleal202.vuejs-theme"]
+  "recommendations": [
+    "Vue.volar",
+    "leonardoleal202.vuejs-theme",
+    "dbaeumer.vscode-eslint",
+    "octref.vetur",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode"
+  ]
 }

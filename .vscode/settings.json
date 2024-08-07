@@ -1,5 +1,6 @@
 {
   "workbench.colorTheme": "VueJS Theme",
+  "terminal.integrated.defaultProfile.linux": "/bin/bash",
   "javascript.format.semicolons": "insert",
   "javascript.format.enable": true,
   "files.associations": {
