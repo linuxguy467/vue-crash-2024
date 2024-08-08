@@ -22,13 +22,40 @@
   // Features to add to the dev container. More info: https://containers.dev/features.
   // "features": {},
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [
-    3010
-  ],
+  // "forwardPorts": [],
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": ".devcontainer/install.sh .devcontainer/code-extensions.txt"
+  "postCreateCommand": "npm install",
   // Configure tool-specific properties.
-  // "customizations": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "esbenp.prettier-vscode",
+        "Vue.volar",
+        "leonardoleal202.vuejs-theme",
+        "dbaeumer.vscode-eslint",
+        "eamodio.gitlens",
+        "octref.vetur",
+        "wix.vscode-import-cost",
+        "hollowtree.vue-snippets",
+        "-ms-ossdata.vscode-postgresql",
+        "-GitHub.copilot",
+        "-GitHub.copilot-chat"
+      ],
+      "settings": {
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "workbench.colorTheme": "VueJS Theme",
+        "terminal.integrated.defaultProfile.linux": "/bin/bash",
+        "javascript.format.semicolons": "insert",
+        "javascript.format.enable": true,
+        "files.associations": {
+          "*.css": "tailwindcss"
+        }
+      },
+      "devPort": 3010
+    }
+  }
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
 }
